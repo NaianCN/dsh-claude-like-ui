@@ -4,13 +4,13 @@
 
 A DeepSeek Harness plugin that makes its interface look and feel like Claude Desktop.
 
-![Welcome page, light](docs/screenshots/en-welcome-light-0.4.13.png)
+![Welcome page, light](docs/screenshots/en-welcome-light-0.4.19.png)
 
-![Welcome page, dark](docs/screenshots/en-welcome-dark-0.4.13.png)
+![Welcome page, dark](docs/screenshots/en-welcome-dark-0.4.19.png)
 
-![Chat, light: the context ring panel](docs/screenshots/en-chat-light-0.4.12.png)
+![Chat, light: the context ring panel](docs/screenshots/en-chat-light-0.4.19.png)
 
-![Chat, dark: the thinking slider in the model menu](docs/screenshots/en-chat-dark-0.4.12.png)
+![Chat, dark: multiline input and first-line alignment](docs/screenshots/en-chat-dark-0.4.19.png)
 
 - **Colors**: warm greys with a clay accent (`#D97757`); light and dark follow the system. In dark mode, menus and popovers sit one step lighter than the composer, and caption text and disabled buttons have been tuned for contrast
 - **Layout**: serif body text, clay inline code and rounded user bubbles. The sidebar drops the DeepSeek Harness logo, "New Session" becomes a plain row, and workspace headings read "Name ▾"
