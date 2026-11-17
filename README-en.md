@@ -1,4 +1,4 @@
-# dsh-claude-ui
+# dsh-claude-like-ui
 
 [中文](README.md) | English
 
@@ -36,13 +36,13 @@ No official files are touched; uninstalling restores the stock interface.
 **From the app**: sidebar **Plugins** → the small arrow next to **Add plugin** → **Install third-party plugin**. Paste the address below, click **Enable now**, then restart the app.
 
 ```
-https://github.com/NaianCN/dsh-claude-ui/archive/refs/heads/main.tar.gz
+https://github.com/NaianCN/dsh-claude-like-ui/archive/refs/heads/main.tar.gz
 ```
 
 **From the command line** (macOS desktop app):
 
 ```bash
-"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add https://github.com/NaianCN/dsh-claude-ui/archive/refs/heads/main.tar.gz
+"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add https://github.com/NaianCN/dsh-claude-like-ui/archive/refs/heads/main.tar.gz
 ```
 
 On Windows, or with `dsh web` installed from npm, replace the path with your `dsh` command (the `dsh web` profile is `web`). The address is GitHub's source tarball, so Git is not needed.
@@ -107,8 +107,8 @@ The interface code is all in `lib/client.js`; `lib/index.js` only relays the off
 For local development, install with link so changes apply directly:
 
 ```bash
-git clone https://github.com/NaianCN/dsh-claude-ui.git
-"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add link:$(pwd)/dsh-claude-ui
+git clone https://github.com/NaianCN/dsh-claude-like-ui.git
+"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add link:$(pwd)/dsh-claude-like-ui
 ```
 
 ## License

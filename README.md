@@ -1,4 +1,4 @@
-# dsh-claude-ui
+# dsh-claude-like-ui
 
 中文 | [English](README-en.md)
 
@@ -36,13 +36,13 @@
 **界面安装**：侧栏 **插件** → **添加插件** 右侧小箭头 → **安装第三方插件**，填入下面的地址，安装后点 **立即启用** 并重启应用。
 
 ```
-https://github.com/NaianCN/dsh-claude-ui/archive/refs/heads/main.tar.gz
+https://github.com/NaianCN/dsh-claude-like-ui/archive/refs/heads/main.tar.gz
 ```
 
 **命令行安装**（macOS 桌面版）：
 
 ```bash
-"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add https://github.com/NaianCN/dsh-claude-ui/archive/refs/heads/main.tar.gz
+"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add https://github.com/NaianCN/dsh-claude-like-ui/archive/refs/heads/main.tar.gz
 ```
 
 Windows 或用 npm 装的 `dsh web`，把前面的路径换成对应的 `dsh` 命令即可（`dsh web` 的 profile 是 `web`）。这个地址是 GitHub 的源码压缩包，安装时不需要电脑上有 Git。
@@ -107,8 +107,8 @@ const SERIF = `"${CJK_PUNCT_FACE}", "Times New Roman", "Songti SC", ...`;
 本地开发时用 link 安装，改动直接生效：
 
 ```bash
-git clone https://github.com/NaianCN/dsh-claude-ui.git
-"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add link:$(pwd)/dsh-claude-ui
+git clone https://github.com/NaianCN/dsh-claude-like-ui.git
+"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh" plugin --profile desktop add link:$(pwd)/dsh-claude-like-ui
 ```
 
 ## 许可
